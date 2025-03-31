@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify, render_template
-import pymongo
+#import pymongo
 import math
 import itertools
 import functools
 import requests
 
-conn = pymongo.MongoClient("mongodb://localhost:27017/")
+#conn = pymongo.MongoClient("mongodb://localhost:27017/")
 app = Flask(__name__)
 
 # OpenRouteService API Key (Replace with your actual key)
